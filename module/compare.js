@@ -1,23 +1,49 @@
 // Bigger than (>)
-const e = 5 > 4;
-// e = true
+const a = 5 > 4;
+// a = true
 
 // Less than (<)
-const f = 5 < 4;
-// f = false
+const b = 5 < 4;
+// b = false
 
 // Equal to (==) without type check
 // Do not use this
-const g = 5 == "4";
+const c = 5 == "4";
 
 // Equal to with type check (===)
-const h = 5 === 4;
+const d = 5 === 4;
 
 // Not equal with type check (!==)
-const k = 5 !== 4;
+const e = 5 !== 4;
 
 // Bigger than or equal to (>=)
-const i = 5 >= 4;
+const f = 5 >= 4;
 
 // Less than or equal to (<=)
-const j = 5 <= 4;
+const g = 5 <= 4;
+
+// And operator
+const h = true && false;
+
+// Or operator
+const i = true || false;
+
+// Not operator
+const j = !true;
+
+// Grouping `()` has the highest priority, same as math grouping
+const k = !(!true && false) || (false && !true);
+
+if (l) {
+  console.log("l is true");
+} else {
+  console.log("l is false");
+}
+
+// n evaluates a first. Produce `a` if `a` is false
+// This is called "operator precedence"
+// Read further: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
+const m = a && b;
+
+// `n` evaluates a first. Produce `a` if `a` is true
+const n = a || b;
