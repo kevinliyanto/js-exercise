@@ -1,5 +1,26 @@
 # Part 1
 
+Teaching module:
+
+- Printing with `console.log` and `process.stdout.write`
+- Declaring variables (`let` / `const`)
+- Basic data type: string, number, and boolean
+- Control flow: choice / if-else statement
+
+## Exercise 0: Print to stdout using console.log
+
+Make a file called `hello.js`, and put:
+
+```js
+console.log("Hello world");
+```
+
+Run it on your shell
+
+```sh
+$ node hello.js
+```
+
 ## Exercise 1: leap.js
 
 Check if input (`rNumber`) is a leap year
