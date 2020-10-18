@@ -19,7 +19,11 @@ const g2 = Math.floor(5 / 2);
 // g2 = 3
 
 // Modulus operator
-const h = 8 % 5;
-// h = 3
+const h = 8.2 % 5.1;
+// Ideally, h would be 3.1
+console.log(h);
+
+// To parse properly:
+console.log(h.toFixed(1));
 
 // a = (Math.floor(a / b) * b) + (a % b)

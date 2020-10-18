@@ -61,12 +61,12 @@ Price per cone: I love typescript
 Invalid input
 ```
 
-If you can buy ice cream cones, you should also print out the remainder (left over) of your transaction
+If you can buy ice cream cones, you should also print out the remainder (left over) of your transaction. Remainder is rounded to 1 decimal place.
 
 ```
 $ node cost.js
-Price per cone: 1.5
-Money: 4.8
+Price per cone: 1.51
+Money: 4.83
 I can buy 3 ice cream cones with 0.3 dollars left over
 ```
 
@@ -74,6 +74,8 @@ I can buy 3 ice cream cones with 0.3 dollars left over
 <summary>Hints</summary>
 
 > `isNaN(x)` is a function that takes a number and checks whether it is not a number (`NaN`)
+
+> To round a number to x decimal places, use `number.toFixed(x)`
 
 > Use `process.exit(status)` to exit a Node.JS program. `status` is a number.
 
