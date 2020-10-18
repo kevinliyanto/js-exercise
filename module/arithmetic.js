@@ -12,6 +12,11 @@ const g = 5 / 2;
 
 // Floor
 const g1 = Math.floor(5 / 2);
+// g1 = 2
+
+// Ceiling
+const g2 = Math.floor(5 / 2);
+// g2 = 3
 
 // Modulus operator
 const h = 8 % 5;

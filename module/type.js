@@ -13,6 +13,7 @@ console.log(l);
 // var declares a variable globally. You can also redeclare var
 // It is advised not to use var
 var z = Math.floor(12.3);
+console.log(z);
 
 // boolean
 const m = true;
@@ -25,7 +26,7 @@ const t = Number(r) + 5;
 console.log(t);
 
 // number.toString() -> string
-const u = t.toString() + "sasdasd";
+const u = "test " + t.toString() + " sasdasd";
 console.log(u);
 
 // Reassigning a variable

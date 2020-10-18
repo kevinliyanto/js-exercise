@@ -67,13 +67,14 @@ If you can buy ice cream cones, you should also print out the remainder (left ov
 $ node cost.js
 Price per cone: 1.5
 Money: 4.8
-I can buy 3 ice cream cones with 0.3 dollars left over.
+I can buy 3 ice cream cones with 0.3 dollars left over
 ```
 
 <details>
 <summary>Hints</summary>
 
 > `isNaN(x)` is a function that takes a number and checks whether it is not a number (`NaN`)
+
 > Use `process.exit(status)` to exit a Node.JS program. `status` is a number.
 
 </details>
