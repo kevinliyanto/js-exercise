@@ -7,7 +7,7 @@ process.stdout.write("Type a number: ");
 const r = scanfString().replace("\n", "");
 
 // Parse r into number
-const rNumber = parseFloat(r);
+const rNumber = Number(r);
 
 // If - else if - else statement
 if (rNumber === 2) {

@@ -1,15 +1,17 @@
 # Part 2
 
+This teaching module covers choice control flow
+
 Teaching module:
 
 - Control flow: choice / if-else statement
 
-## Exercise 1: bigger.js
+## Exercise 1: biggest.js
 
 Print out the biggest number between variable `number1`, `number2`, and `number3` using if statement.
 
 ```
-$ node bigger.js
+$ node biggest.js
 First number: 7
 Second number: 42
 Third number: -3
@@ -17,7 +19,7 @@ Biggest number is: 42
 ```
 
 ```
-$ node bigger.js
+$ node biggest.js
 First number: -7.3
 Second number: -16.9
 Third number: -14.7

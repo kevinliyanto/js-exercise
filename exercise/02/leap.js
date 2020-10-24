@@ -3,10 +3,6 @@ const { scanfString } = require("../../deps/scanf");
 
 process.stdout.write("Type a year: ");
 
-// r: string
-// Take from stdin until end of transmission
-// End of transmission = Ctrl + D
-// And replaces any newline
 const r = scanfString().replace("\n", "");
 
 // Parse r into number
