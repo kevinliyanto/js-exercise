@@ -39,7 +39,7 @@ SOFTWARE.
 
 const fs = require("fs");
 
-const BUFSIZE = 512;
+const BUFSIZE = 1024;
 
 exports.scanfString = function () {
   let stdinFd =
@@ -57,5 +57,7 @@ exports.scanfString = function () {
   if (bytesRead === 0) {
     return "";
   }
-  return buf.toString("utf8");
+
+  // Needs to end on bytesRead, otherwise it shows the remaining null bytes
+  return buf.toString("utf8", 0, bytesRead);
 };
