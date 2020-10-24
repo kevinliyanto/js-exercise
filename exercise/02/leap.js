@@ -1,5 +1,5 @@
-// Import from node library (type definition: @types/node)
-const fs = require("fs");
+// Import from custom library
+const { scanfString } = require("../../deps/scanf");
 
 process.stdout.write("Type a year: ");
 
@@ -7,7 +7,7 @@ process.stdout.write("Type a year: ");
 // Take from stdin until end of transmission
 // End of transmission = Ctrl + D
 // And replaces any newline
-const r = fs.readFileSync(0).toString().replace("\n", "");
+const r = scanfString().replace("\n", "");
 
 // Parse r into number
 const year = Number(r);

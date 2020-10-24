@@ -1,13 +1,13 @@
-// Import from node library (type definition: @types/node)
-const fs = require("fs");
+// Import from custom library
+const { scanfString } = require("../../deps/scanf");
 
 process.stdout.write("First string: ");
 
-const s1 = fs.readFileSync(0).toString().replace("\n", "");
+const s1 = scanfString().replace("\n", "");
 
 process.stdout.write("Second string: ");
 
-const s2 = fs.readFileSync(0).toString().replace("\n", "");
+const s2 = scanfString().replace("\n", "");
 
 // Put your code here
 // Variables: [s1, s2]

@@ -1,16 +1,13 @@
-// Import from node library (type definition: @types/node)
-const fs = require("fs");
+// Import from custom library
+const { scanfString } = require("../deps/scanf");
 
-console.log("Type a number:");
+process.stdout.write("Type a number: ");
 
-// r: string
-// Take from stdin until end of transmission
-// End of transmission = Ctrl + D
-// And replaces any newline
-const r = fs.readFileSync(0).toString().replace("\n", "");
+// This takes an input and ends the input on enter
+const r = scanfString().replace("\n", "");
 
 // Parse r into number
-const rNumber = Number(r);
+const rNumber = parseFloat(r);
 
 // If - else if - else statement
 if (rNumber === 2) {
@@ -27,6 +24,8 @@ if (rNumber === 2) {
   console.log("Input is less than 4");
 } else if (rNumber < 5) {
   console.log("Input is less than 5");
-} else {
+} else if (rNumber === 5) {
   console.log("Input is equal to 5");
+} else {
+  console.log("Input is bigger than 5");
 }

@@ -131,4 +131,3 @@ ceil(x) = x - (x % 1) + 1
 > You can use `Math.ceil(x)` in JavaScript to calculate ceiling of x
 
 </details>
-```
