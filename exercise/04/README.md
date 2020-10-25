@@ -25,11 +25,11 @@ $ node swap.js
 Your array is correct
 ```
 
-## Exercise 2:
+## Exercise 2: round.js
 
-Round elements in the array that gets passed into the function.
+Round elements in the array of numbers that gets passed into the function so that they are integer.
 
 ```
-$ node swap.js
+$ node round.js
 Elements in your array are rounded
 ```

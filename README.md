@@ -22,7 +22,7 @@ You will need to install these applications on your machine:
 Git is needed to pull this repository. To get this whole repository, use:
 
 ```sh
-git pull https://github.com/kevinliyanto/js-teaching.git
+git clone https://github.com/kevinliyanto/js-teaching.git
 cd js-teaching
 ```
 
