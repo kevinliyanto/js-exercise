@@ -113,3 +113,51 @@ First number: 0
 Second number: 0
 0
 ```
+
+## Exercise 5: rectangle.js
+
+You are provided `printRectangle` function with `width` and `height` property. Using a loop, print a rectangle of `O`. If width/height is not a number or less than 0, don't print anything.
+
+```sh
+$ node rectangle.js
+Width: 6
+Height: 3
+OOOOOO
+OOOOOO
+OOOOOO
+```
+
+```sh
+$ node rectangle.js
+Width: 10
+Height: 0
+```
+
+## Exercise 6: borderedRectangle.js
+
+Same as exercise 5, you have to put a border with size 1 on your rectangle with character `\*`. If width/height is not a number or less than 0, don't print anything.
+
+```sh
+$ node borderedRectangle.js
+Width: 6
+Height: 3
+********
+*OOOOOO*
+*OOOOOO*
+*OOOOOO*
+********
+```
+
+```sh
+$ node borderedRectangle.js
+Width: 10
+Height: 0
+**********
+**********
+```
+
+```sh
+$ node borderedRectangle.js
+Width: -5
+Height: 322
+```

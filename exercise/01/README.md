@@ -13,15 +13,18 @@ Teaching module:
 Make a file called `hello.js`, and put:
 
 ```js
-console.log("Hello world");
+console.log("Hello world 1");
+process.stdout.write("Hello world 2\n");
+process.stdout.write("\n");
 ```
 
-Run it on your shell
+`console.log` prints out everything that you passed in with a newline to your console / stdout, while `process.stdout.write` prints to stdout as it is. Run your application on your shell.
 
 ```sh
 $ node hello.js
 # Your output (This line won't be shown on your console)
-Hello world
+Hello world 1
+Hello world 2
 ```
 
 ## Exercise 2: combine.js
