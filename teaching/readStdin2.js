@@ -24,8 +24,6 @@ if (rNumber === 2) {
   console.log("Input is less than 4");
 } else if (rNumber < 5) {
   console.log("Input is less than 5");
-} else if (rNumber === 5) {
-  console.log("Input is equal to 5");
 } else {
-  console.log("Input is bigger than 5");
+  console.log("Input is equal to 5");
 }

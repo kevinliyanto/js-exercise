@@ -1,3 +1,4 @@
+// Number comparison
 // Bigger than (>)
 const a = 5 > 4;
 // a = true
@@ -22,6 +23,7 @@ const f = 5 >= 4;
 // Less than or equal to (<=)
 const g = 5 <= 4;
 
+// Logical
 // And operator
 const h = true && false;
 
@@ -34,10 +36,10 @@ const j = !true;
 // Grouping `()` has the highest priority, same as math grouping
 const k = !(!true && false) || (false && !true);
 
-if (l) {
-  console.log("l is true");
+if (k) {
+  console.log("k is true");
 } else {
-  console.log("l is false");
+  console.log("k is false");
 }
 
 // n evaluates a first. Produce `a` if `a` is false

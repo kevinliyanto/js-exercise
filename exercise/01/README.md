@@ -14,7 +14,7 @@ Make a file called `hello.js`, and put:
 
 ```js
 console.log("Hello world 1");
-process.stdout.write("Hello world 2\n");
+process.stdout.write("Hello world 2");
 process.stdout.write("\n");
 ```
 
