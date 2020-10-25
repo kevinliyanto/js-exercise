@@ -81,7 +81,7 @@ Greatest common multiple for input 7: none
 
 ## Exercise 4: integers.js
 
-This exercise is somewhat similar to exercise 2, but you are provided number `val1` and `val2` on your function `printAllIntegers`. Using a loop, print every integers between val1 and val2 (inclusive). Print it so that val2 will be the last printed number.
+This exercise is somewhat similar to exercise 2, but you are provided number `val1` and `val2` on your function `printAllIntegers`. Using a loop, print every integers between val1 and val2 (inclusive). Print it so that the integer closest to val2 will be the last printed number.
 
 ```sh
 $ node integers.js
