@@ -114,7 +114,18 @@ Second number: 0
 0
 ```
 
-## Exercise 5: rectangle.js
+## Exercise 5: factors.js
+
+Print out every **factors** and **prime factors** of your positive integer input `val` on your function `printFactors` in one line.
+
+```sh
+$ node factors.js
+Input number: 364
+Factors: 1, 2, 4, 7, 13, 14, 26, 28, 56, 91, 182, 364
+Prime factors: 2, 7, 13
+```
+
+## Exercise 6: rectangle.js
 
 You are provided `printRectangle` function with `width` and `height` property. Using a loop, print a rectangle of `O`. If width/height is not a number or less than 0, don't print anything.
 
@@ -133,7 +144,7 @@ Width: 10
 Height: 0
 ```
 
-## Exercise 6: borderedRectangle.js
+## Exercise 7: borderedRectangle.js
 
 Same as exercise 5, you have to put a border with size 1 on your rectangle with character `\*`. If width/height is not a number or less than 0, don't print anything.
 
@@ -160,4 +171,30 @@ Height: 0
 $ node borderedRectangle.js
 Width: -5
 Height: 322
+```
+
+## Exercise 8: (Challenge) diamond.js
+
+Inside your `printDiamond` function, you are given `val` which is an integer where you need to draw that many diamonds inside each other using the character `\` or `/`. There should be a gap between the inner diamond and the covering diamond
+
+```
+$ node diamond.js
+Diamond count: 1
+/\
+\/
+```
+
+```
+$ node diamond.js
+Diamond count: 3
+    /\
+   /  \
+  / /\ \
+ / /  \ \
+/ / /\ \ \
+\ \ \/ / /
+ \ \  / /
+  \ \/ /
+   \  /
+    \/
 ```
