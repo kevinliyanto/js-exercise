@@ -43,6 +43,10 @@ Type a year: 2020
 Leap year
 ```
 
+### Challenge
+
+Do not use if statement for this question. Use the logical (`!`, `&&`, `||`, etc) and ternary operator (`a ? b : c`)
+
 ## Exercise 3: cost.js
 
 You want to buy an ice cream cone, but you have certain amount of money.

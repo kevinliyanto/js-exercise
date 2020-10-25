@@ -47,3 +47,13 @@ const m = a && b;
 
 // `n` evaluates a first. Produce `a` if `a` is true
 const n = a || b;
+
+// Ternary operator
+// const v = (something that is either true or false)
+//            ? (value that gets assigned to 'v' if true)
+//            : (value that gets assigned to 'v' if false)
+const j = a ? "a is true" : "a is false";
+console.log(j);
+
+// Ternary operator that executes console.log
+k ? console.log("k is true") : console.log("k is false");
