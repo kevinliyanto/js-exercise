@@ -18,7 +18,11 @@ Teaching module:
 
 ## Exercise 1: swap.js
 
-Swap elements in the array that gets passed into the function so that the **n**th element of the array will always be smaller than the **n+1**th element of the array
+Swap elements in the array that gets passed into the function so that the **2n**th element of the array will always be smaller than the **2n+1**th element of the array, and n is an integer. Example:
+
+```
+2.1, 3, -1.8, 7.4, -6, -4.9, 9, 15
+```
 
 ```
 $ node swap.js
