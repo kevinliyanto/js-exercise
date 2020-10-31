@@ -5,7 +5,7 @@ main();
 
 // Do not change this function
 function main() {
-  process.stdout.write("Diamond count: ");
+  process.stderr.write("Diamond count: ");
 
   const n = scanfString().replace("\n", "");
   const r = Number(n);

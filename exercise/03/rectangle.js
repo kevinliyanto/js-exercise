@@ -5,12 +5,12 @@ main();
 
 // Do not change this function
 function main() {
-  process.stdout.write("Width: ");
+  process.stderr.write("Width: ");
 
   const n1 = scanfString().replace("\n", "");
   const w = Number(n1);
 
-  process.stdout.write("Height: ");
+  process.stderr.write("Height: ");
 
   const n2 = scanfString().replace("\n", "");
   const h = Number(n2);

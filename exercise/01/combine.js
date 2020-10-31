@@ -1,11 +1,11 @@
 // Import from custom library
 const { scanfString } = require("../../deps/scanf");
 
-process.stdout.write("First string: ");
+process.stderr.write("First string: ");
 
 const s1 = scanfString().replace("\n", "");
 
-process.stdout.write("Second string: ");
+process.stderr.write("Second string: ");
 
 const s2 = scanfString().replace("\n", "");
 

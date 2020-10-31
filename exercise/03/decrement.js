@@ -5,7 +5,7 @@ main();
 
 // Do not change this function
 function main() {
-  process.stdout.write("Input number: ");
+  process.stderr.write("Input number: ");
 
   const n = scanfString().replace("\n", "");
   const r = Number(n);

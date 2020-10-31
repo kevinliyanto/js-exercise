@@ -1,7 +1,7 @@
 // Import from custom library
 const { scanfString } = require("../../deps/scanf");
 
-process.stdout.write("Insert a number: ");
+process.stderr.write("Insert a number: ");
 
 const r = scanfString().replace("\n", "");
 

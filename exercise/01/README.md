@@ -2,7 +2,7 @@
 
 Teaching module:
 
-- Printing with `console.log` and `process.stdout.write`
+- Printing with `console.log` and `process.stderr.write`
 - Declaring variables (`let` / `const`)
 - Basic data type: string, number, and boolean
 - Basic operation on strings: combining string
@@ -14,11 +14,11 @@ Make a file called `hello.js`, and put:
 
 ```js
 console.log("Hello world 1");
-process.stdout.write("Hello world 2");
-process.stdout.write("\n");
+process.stderr.write("Hello world 2");
+process.stderr.write("\n");
 ```
 
-`console.log` prints out everything that you passed in with a newline to your console / stdout, while `process.stdout.write` prints to stdout as it is. Run your application on your shell.
+`console.log` prints out everything that you passed in with a newline to your console / stdout, while `process.stderr.write` prints to stdout as it is. Run your application on your shell.
 
 ```sh
 $ node hello.js

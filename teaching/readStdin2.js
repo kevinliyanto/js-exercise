@@ -1,7 +1,9 @@
 // Import from custom library
 const { scanfString } = require("../deps/scanf");
 
-process.stdout.write("Type a number: ");
+// Stderr is another standard stream, similar to stdout but used to output error messages
+// In shells, stderr is also displayed in your screen alongside stdout
+process.stderr.write("Type a number: ");
 
 // This takes an input and ends the input on enter
 const r = scanfString().replace("\n", "");

@@ -1,12 +1,12 @@
 // Import from custom library
 const { scanfString } = require("../../deps/scanf");
 
-process.stdout.write("Price per cone: ");
+process.stderr.write("Price per cone: ");
 
 const c = scanfString().replace("\n", "");
 const conePrice = Number(c);
 
-process.stdout.write("Money: ");
+process.stderr.write("Money: ");
 
 const m = scanfString().replace("\n", "");
 const money = Number(m);

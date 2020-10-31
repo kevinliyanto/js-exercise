@@ -1,7 +1,7 @@
 // Import from custom library
 const { scanfString } = require("../../deps/scanf");
 
-process.stdout.write("Type a year: ");
+process.stderr.write("Type a year: ");
 
 const r = scanfString().replace("\n", "");
 
