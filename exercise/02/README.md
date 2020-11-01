@@ -72,9 +72,8 @@ If price or money is invalid (less than or equal to 0, or `NaN`), say "Invalid i
 
 ```
 $ node cost.js
-Price per cone: I love typescript
+Price per cone: JavaScript is better than TypeScript
 Invalid input
-
 ```
 
 If you can buy ice cream cones, you should also print out the remainder (left over) of your transaction. Remainder is rounded to 1 decimal place.

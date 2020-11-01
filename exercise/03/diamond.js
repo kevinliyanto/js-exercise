@@ -13,7 +13,12 @@ function main() {
   printDiamond(r);
 }
 
-// Modify the function below
+/**
+ * Modify the function below so that it prints diamonds according to the
+ * provided value
+ * @param {number} val
+ * @returns {void}
+ */
 function printDiamond(val) {
   // Put your code here
 }

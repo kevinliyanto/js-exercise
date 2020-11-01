@@ -13,7 +13,12 @@ function main() {
   decrement(r);
 }
 
-// Modify the function below
+/**
+ * Modify the function below so that it prints every integers
+ * between val and 0 inclusively
+ * @param {number} val
+ * @returns {void}
+ */
 function decrement(val) {
   // Put your code here
 }

@@ -13,7 +13,11 @@ function main() {
   printFactors(r);
 }
 
-// Modify the function below
+/**
+ * Modify the function below so that it prints all of val's factors
+ * @param {number} val
+ * @returns {void}
+ */
 function printFactors(val) {
   // Put your code here
 }

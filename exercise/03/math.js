@@ -23,16 +23,35 @@ function main() {
 }
 
 // Modify the functions below
+
+/**
+ * Calculate the sum between two number
+ * @param {number} n1
+ * @param {number} n2
+ * @returns {number}
+ */
 function sum(n1, n2) {
   // Put your code here
   return 0;
 }
 
+/**
+ * Calculate the average between two number
+ * @param {number} n1
+ * @param {number} n2
+ * @returns {number}
+ */
 function average(n1, n2) {
   // Put your code here
   return 0;
 }
 
+/**
+ * Calculate the multiplication result between two number
+ * @param {number} n1
+ * @param {number} n2
+ * @returns {number}
+ */
 function multiply(n1, n2) {
   // Put your code here
   return 0;

@@ -18,7 +18,14 @@ function main() {
   printAllIntegers(number1, number2);
 }
 
-// Modify the functions below
+/**
+ * Modify the function below so that it prints every integers
+ * between val1 and val2 inclusively. Integer closest to val2
+ * must be the last printed number
+ * @param {number} val1
+ * @param {number} val2
+ * @returns {void}
+ */
 function printAllIntegers(val1, val2) {
   // Put your code here
 }

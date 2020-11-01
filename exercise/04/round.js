@@ -13,7 +13,12 @@ function main() {
     t || console.log("You have modified a value on your array");
 }
 
-// Modify the functions below
+/**
+ * Modify the functions below so that it rounds every number in the array
+ * You have to modify content of the array itself
+ * @param {number[]} array
+ * @returns {void}
+ */
 function round(array) {
   // Put your code here
 }

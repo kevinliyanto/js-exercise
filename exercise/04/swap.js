@@ -13,7 +13,13 @@ function main() {
     t || console.log("You have modified a value on your array");
 }
 
-// Modify the functions below
+/**
+ * Modify the functions below so that it swaps the 2n th element of the array
+ * will always be smaller than the 2n+1 th element of the array (n is an integer)
+ * You have to modify content of the array itself and not returning anything
+ * @param {number[]} array
+ * @returns {void}
+ */
 function swapFirstSecond(array) {
   // Put your code here
 }

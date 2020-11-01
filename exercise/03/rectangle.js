@@ -18,7 +18,13 @@ function main() {
   printRectangle(w, h);
 }
 
-// Modify the functions below
+/**
+ * Modify the functions below so that it prints a rectangle with the
+ * specified width and height
+ * @param {number} width
+ * @param {number} height
+ * @returns {void}
+ */
 function printRectangle(width, height) {
   // Put your code here
 }

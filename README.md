@@ -27,3 +27,7 @@ cd js-teaching
 ```
 
 To periodically pull this repository, use `git pull` inside `js-teaching` directory.
+
+## IDE to use
+
+You can use any IDE, ranging from Vim to JetBrains WebStorm. It is recommended to use **Visual Studio Code**.

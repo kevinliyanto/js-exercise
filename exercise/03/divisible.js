@@ -14,9 +14,13 @@ function main() {
   console.log(`Greatest common multiple for input ${r}: ${lcm ? lcm : "none"}`);
 }
 
-// Modify the function below
-// Print all positive integers less than or equal to `val` divisible by 3 and 5.
-// Return 0 if there is no greatest common multiple for 3 and 5 below val
+/**
+ * Modify the function below
+ * Print all positive integers less than or equal to `val` divisible by 3 and 5.
+ * Return 0 if there is no greatest common multiple for 3 and 5 below val
+ * @param {number} val
+ * @returns {number}
+ */
 function divisible(val) {
   // Put your code here
   return 0;
