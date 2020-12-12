@@ -174,33 +174,7 @@ Width: -5
 Height: 322
 ```
 
-## Exercise 8: (Challenge) diamond.js
-
-Inside your `printDiamond` function, you are given `val` which is an integer where you need to draw that many diamonds inside each other using the character `\` or `/`. There should be a gap between the inner diamond and the covering diamond.
-
-```
-$ node diamond.js
-Diamond count: 1
-/\
-\/
-```
-
-```
-$ node diamond.js
-Diamond count: 3
-    /\
-   /  \
-  / /\ \
- / /  \ \
-/ / /\ \ \
-\ \ \/ / /
- \ \  / /
-  \ \/ /
-   \  /
-    \/
-```
-
-## Exercise 9: factorial.js
+## Exercise 8: factorial.js
 
 Factorial of a number `x` in mathematics is denoted by `x!`. It is the product of all positive less than or equal to `x`, mathematically:
 
@@ -228,7 +202,7 @@ Input number: 90
 1.4857159644817607e+138
 ```
 
-## Exercise 10: fibonacci.js
+## Exercise 9: fibonacci.js
 
 Fibonacci sequence is formed such that each number is the sum of the two preceding ones starting from 0 and 1, mathematically:
 
@@ -237,6 +211,8 @@ f(0) = 0
 f(1) = 1
 f(x) = f(x-1) + f(x-2)
 ```
+
+where `f(x)` is the xth Fibonacci number.
 
 Inside your `fibonacci` function, you are given `x` (taken from your input number) in which you have to return the *x*th fibonacci number.
 
@@ -298,3 +274,29 @@ For this challenge, you are allowed to put a code before the main function call.
 > `Map` object will be introduced in part 5 of this exercise.
 
 </details>
+
+## Exercise 10: (Challenge) diamond.js
+
+Inside your `printDiamond` function, you are given `val` which is an integer where you need to draw that many diamonds inside each other using the character `\` or `/`. There should be a gap between the inner diamond and the covering diamond.
+
+```
+$ node diamond.js
+Diamond count: 1
+/\
+\/
+```
+
+```
+$ node diamond.js
+Diamond count: 3
+    /\
+   /  \
+  / /\ \
+ / /  \ \
+/ / /\ \ \
+\ \ \/ / /
+ \ \  / /
+  \ \/ /
+   \  /
+    \/
+```
