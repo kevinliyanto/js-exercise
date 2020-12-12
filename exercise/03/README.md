@@ -7,6 +7,7 @@ Teaching module:
   - Using normal function `function x()`
   - Using arrow function `() => {}`
 - Control flow: loops (while and for)
+- Recursion
 
 ## Exercise 1: math.js
 
@@ -175,7 +176,7 @@ Height: 322
 
 ## Exercise 8: (Challenge) diamond.js
 
-Inside your `printDiamond` function, you are given `val` which is an integer where you need to draw that many diamonds inside each other using the character `\` or `/`. There should be a gap between the inner diamond and the covering diamond
+Inside your `printDiamond` function, you are given `val` which is an integer where you need to draw that many diamonds inside each other using the character `\` or `/`. There should be a gap between the inner diamond and the covering diamond.
 
 ```
 $ node diamond.js
@@ -198,3 +199,100 @@ Diamond count: 3
    \  /
     \/
 ```
+
+## Exercise 9: factorial.js
+
+Factorial of a number `x` in mathematics is denoted by `x!`. It is the product of all positive less than or equal to `x`, mathematically:
+
+```
+x! = x * (x-1) * (x-2) * ... * 3 * 2 * 1
+```
+
+Inside your `factorial` function, you are given `x` (taken from your input number) in which you have to return factorial of `x`. Assume that x will always be positive.
+
+```
+$ node factorial.js
+Input number: 1
+1
+```
+
+```
+$ node factorial.js
+Input number: 8
+362880
+```
+
+```
+$ node factorial.js
+Input number: 90
+1.4857159644817607e+138
+```
+
+## Exercise 10: fibonacci.js
+
+Fibonacci sequence is formed such that each number is the sum of the two preceding ones starting from 0 and 1, mathematically:
+
+```
+f(0) = 0
+f(1) = 1
+f(x) = f(x-1) + f(x-2)
+```
+
+Inside your `fibonacci` function, you are given `x` (taken from your input number) in which you have to return the *x*th fibonacci number.
+
+```
+$ node fibonacci.js
+Input number: 0
+0
+```
+
+```
+$ node fibonacci.js
+Input number: 20
+6765
+```
+
+```
+$ node fibonacci.js
+Input number: 20
+102334155
+```
+
+### Challenge
+
+Your code gets slower when you have to put a larger value. Find out a way to make your code faster (gives you a result in less than a second). You can benchmark your code performance by [looking at `user` field](https://stackoverflow.com/a/556411) when running your code with [`time`](https://man7.org/linux/man-pages/man1/time.1.html).
+
+```
+$ time node fibonacci.js
+Input number: 102
+927372692193079200000
+
+real    0m1.185s
+user    0m0.024s # This field is the one you're looking for
+sys     0m0.006s
+```
+
+```
+$ time node fibonacci.js
+Input number: 1200
+2.7269884455406272e+250
+
+real    0m1.185s
+user    0m0.024s
+sys     0m0.006s
+```
+
+For this challenge, you are allowed to put a code before the main function call.
+
+<details>
+<summary>Hints</summary>
+
+> Memoization is a technique to speed up your code by storing previously-calculated result.
+>
+> `const store = new Map()` gives you a map, a place where you can store key-value pair.
+>
+> For example, you can store a value by doing `store.set(0, "something")` and retrieve the string "something" by getting the value `store.get(0)`
+>
+> `Map` object will be introduced in part 5 of this exercise.
+
+</details>
