@@ -1,8 +1,6 @@
 // Import from custom library
 const { scanfString } = require("../../deps/scanf");
 
-// Put code here (before main function call) if you are doing the challenge
-
 main();
 
 // Do not change this function
