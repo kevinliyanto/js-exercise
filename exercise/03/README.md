@@ -291,7 +291,9 @@ For this challenge, you are allowed to put a code before the main function call.
 >
 > `const store = new Map()` gives you a map, a place where you can store key-value pair.
 >
-> For example, you can store a value by doing `store.set(0, "something")` and retrieve the string "something" by getting the value `store.get(0)`
+> For example, you can store a value by setting a key to a value, like `store.set(0, "something")`.
+>
+> Then, you can retrieve the string "something" by getting the value `store.get(0)`.
 >
 > `Map` object will be introduced in part 5 of this exercise.
 
