@@ -16,7 +16,7 @@ It is recommended for you to use Unix-like machines to learn programming, even i
 
 You will need to install these applications on your machine:
 
-- Node.JS (at least ES6-compatible, but you should probably install the [newest LTS NodeJS](https://github.com/nodejs/Release#release-schedule) anyway)
+- Node.JS ([at least ES6/ES2015-compatible](https://node.green/#ES2015), but you should probably install the [newest LTS NodeJS](https://github.com/nodejs/Release#release-schedule) anyway)
 - Git
 
 Git is needed to pull this repository. To get this whole repository, use:
